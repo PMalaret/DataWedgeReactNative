@@ -1,3 +1,6 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
 # OSX
 #
 .DS_Store
@@ -29,6 +32,7 @@ build/
 .gradle
 local.properties
 *.iml
+.apk
 
 # node.js
 #
@@ -40,6 +44,37 @@ yarn-error.log
 buck-out/
 \.buckd/
 *.keystore
+
+# Expo
+.expo/
+dist/
+web-build/
+
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+
+# typescript
+*.tsbuildinfo
 
 # fastlane
 #
@@ -57,3 +92,5 @@ buck-out/
 
 # CocoaPods
 /ios/Pods/
+
+.yarn/

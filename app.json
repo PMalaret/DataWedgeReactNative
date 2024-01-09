@@ -1,4 +1,35 @@
 {
-  "name": "DataWedgeReactNative",
-  "displayName": "DataWedgeReactNative"
+  "expo": {
+    "name": "DataWedgeReactNative",
+    "slug": "DataWedgeReactNative",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2fcd5cc9-0ecf-454c-abb0-af2fcda0670e"
+      }
+    }
+  }
 }

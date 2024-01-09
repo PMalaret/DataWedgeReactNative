@@ -37,7 +37,7 @@ In either case, ensure you have a Datawedge profile on the device.  You can do t
 - Launching the Datawedge application
 - (Prior to 6.3 only) Select Menu --> New Profile and name the profile `ZebraReactNativeDemo`
 - Configure the ZebraReactNativeDemo profile to 
-  - Associate the profile with com.datawedgereactnative.demo, with * Activities (Note: You need to have previously run the application on the device to complete this step)
+  - Associate the profile with com.koobin.datawedgereactnative, with * Activities (Note: You need to have previously run the application on the device to complete this step)
   - Configure the intent output plugin to send broadcast intents to `com.zebra.reactnativedemo.ACTION` (Note: the action changed with the update made in March 2018)
   
 ![Profile configuration 1](https://raw.githubusercontent.com/darryncampbell/DataWedgeReactNative/master/screenshots/datawedge_associated_apps.png)
